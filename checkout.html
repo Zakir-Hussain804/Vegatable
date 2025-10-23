@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout </title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+  
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="Checking.css">
+    <link rel="stylesheet" href="mainImage.css">
+</head>
+<body>
+      <header>
+  <div class="top-fixed">
+    <div class="top-info-container">
+      <div class="info-item">
+        <i class="icon ion-ios-telephone"></i>
+        <span>+ 1235 2355 98</span>
+      </div>
+      <div class="info-item">
+        <i class="icon ion-ios-email"></i>
+        <p>zakirhussain804@gmail.com</p>
+      </div>
+      <div class="info-item">
+        <span>3–5 Business days delivery & Free Returns</span>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="logo">
+        <p><a href="#">Vegefoods</a></p>
+      </div>
+
+      <div class="menu-icon">
+        <i id="open-menu" class="fas fa-bars"></i>
+        <i id="close-menu" class="fas fa-times" style="display: none;"></i>
+      </div>
+
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="has-dropdown">
+          <a href="#shop">Shop <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown">
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="SingleProduct.html">Single Product</a></li>
+            <li><a href="Cart.html">Cart</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+          </ul>
+        </li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li class="nav-item cart">
+          <a href="Cart.html" class="nav-link cart-link">
+            <i class="ion-ios-cart"></i> [0]
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+   <div class="main-image">
+    <img src="images/bg_1.jpg" alt="Background image">
+    <div class="main-center">
+      <h2>My Checkout</h2>
+      <p>Checkout Content</p>
+    </div>
+  </div>
+     
+<section class="checkout-container">
+  <!-- Left Column -->
+  <div class="billing-details">
+    <h2>Billing Details</h2>
+    <form>
+      <div>
+        <label>First Name</label>
+        <input type="text" placeholder="First Name">
+      </div>
+      <div>
+        <label>Last Name</label>
+        <input type="text" placeholder="Last Name">
+      </div>
+      <div class="full">
+        <label>State / Country</label>
+        <select>
+          <option>France</option>
+          <option>Pakistan</option>
+          <option>USA</option>
+          <option>UK</option>
+        </select>
+      </div>
+      <div>
+        <label>Street Address</label>
+        <input type="text" placeholder="House number and street name">
+      </div>
+      <div>
+        <label>Apartment, suite, etc. (optional)</label>
+        <input type="text" placeholder="Optional">
+      </div>
+      <div>
+        <label>Town / City</label>
+        <input type="text" placeholder="City">
+      </div>
+      <div>
+        <label>Postcode / ZIP *</label>
+        <input type="text" placeholder="ZIP Code">
+      </div>
+      <div>
+        <label>Phone</label>
+        <input type="text" placeholder="Phone">
+      </div>
+      <div>
+        <label>Email Address</label>
+        <input type="email" placeholder="you@example.com">
+      </div>
+
+    </form>
+  </div>
+
+  <!-- Right Column -->
+  <div class="checkout-summary">
+    <div class="cart-total">
+      <h3>Cart Total</h3>
+      <ul>
+        <li><span>Subtotal</span><span>$20.60</span></li>
+        <li><span>Delivery</span><span>$0.00</span></li>
+        <li><span>Discount</span><span>$3.00</span></li>
+        <li class="total"><span>TOTAL</span><span>$17.60</span></li>
+      </ul>
+    </div>
+
+    <div class="payment-method">
+      <h3>Payment Method</h3>
+      <label><input type="radio" name="payment"> Direct Bank Transfer</label>
+      <label><input type="radio" name="payment"> Check Payment</label>
+      <label><input type="radio" name="payment"> Paypal</label>
+      <label><input type="checkbox"> I have read and accept the terms and conditions</label>
+      <button class="place-order-btn">Place an order</button>
+    </div>
+  </div>
+</section>
+
+     <div class="footer-container">
+      <div class="footerbody">
+
+        <!-- Vegefoods Block -->
+        <div class="vegefood footer">
+          <h4>Vegefoods</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+         <div class="container " style="margin: 10px;
+          font-size: 2rem;">
+            <i class="fa-brands fa-square-twitter" ></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+        </div>
+
+        <!-- Menu Block -->
+        <div class="menu footer">
+          <ul>
+            <h3>Menu</h3>
+            <li><a href="./">Shop</a></li>
+            <li><a href="./">About</a></li>
+            <li><a href="./">Journal</a></li>
+            <li><a href="./">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Help Block -->
+        <div class="help footer">
+          <h3>Help</h3>
+          <ul>
+            <li><a href="./">Shopping information FAQ</a></li>
+            <li><a href="./">Return & Exchange Contact</a></li>
+            <li><a href="./">Terms & Conditions</a></li>
+            <li><a href="./">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Location Block -->
+        <div class="location footer">
+          <h3>Have a Question?</h3>
+          <p><i class="fa-solid fa-location-dot"></i> 203 Fake St. Mountain View, San Francisco, California, USA</p>
+          <p><i class="fa-solid fa-phone"></i> +2 392 3929 210</p>
+          <p><i class="fa-solid fa-envelope"></i> info@yourdomain.com</p>
+        </div>
+
+      </div>
+    <p style=" text-align: center; margin: 10px;
+      font-size: 1.5rem;"> | This template is made with by Zakir hussain &hearts; </p>
+   
+    </div>
+
+
+</body>
+<script src="Header.js"></script>
+</html>

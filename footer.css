@@ -1,0 +1,55 @@
+.footer-container{
+    height: 55vh;
+}
+.footerbody{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px ;
+}
+.footer{
+    width: 200px;
+    margin: 20px;
+    font-size: large;
+ 
+}
+
+.footer h4{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.footer p{
+  
+    font-size: 1.2rem;
+}
+.footer ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.Container{
+    display: flex;
+    gap:30px;
+ 
+}
+.ic{
+    height: 60px;
+    width: 63px;
+    border-radius: 50%;
+   background-color: rgb(230, 230, 230);
+    box-shadow: 2px 3px 3px 3px rgb(240, 240, 240);
+    text-align: center;
+    align-self: center;
+    margin-top: 30px;
+    padding: 0px;
+}
+.Iconfooter{
+    font-size: 2.4rem;
+    margin-top:10px
+}

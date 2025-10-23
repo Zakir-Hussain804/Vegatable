@@ -1,0 +1,140 @@
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* ===== Top Info + Navbar Fixed Wrapper ===== */
+    .top-fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    /* ===== Top Info Bar ===== */
+    .top-info-container {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: green;
+      color: #ececec;
+      height: 40px;
+      font-size: 0.9rem;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* ===== Navbar ===== */
+    nav.navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .logo p a {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: rgb(87, 189, 9);
+    }
+
+    .menu {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      list-style: none;
+    }
+
+    li a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.1rem;
+      transition: 0.3s;
+    }
+
+    li a:hover {
+      color: #0a0ed8;
+    }
+
+    .has-dropdown {
+      position: relative;
+    }
+
+    .dropdown {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #f7f6f6;
+      min-width: 160px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      padding: 10px 0;
+      z-index: 999;
+    }
+
+    .dropdown li {
+      padding: 8px 16px;
+    }
+
+    .dropdown li:hover {
+      background-color: #ececec;
+    }
+
+    .has-dropdown:hover .dropdown {
+      display: block;
+    }
+
+    .menu-icon {
+      display: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    /* ===== Responsive Navbar ===== */
+    @media (max-width: 768px) {
+      .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: white;
+        width: 80%;
+        height: 100vh;
+        padding: 1rem;
+      }
+
+      .menu.open {
+        display: flex;
+      }
+
+      .menu-icon {
+        display: block;
+      }
+      .top-info-container {
+
+        flex-direction: column;
+        font-size: 0.5rem;
+        height: 55px;
+       
+      }
+      .info-item{
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+    

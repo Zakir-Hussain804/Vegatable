@@ -1,0 +1,107 @@
+
+    .testimonial-container {
+      width: 100%;
+      margin: auto;
+      max-width: 700px;
+      background: white;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      padding: 30px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .testimonial {
+      display: none;
+      opacity: 0;
+      transition: opacity 0.6s ease;
+    }
+
+    .testimonial.active {
+      padding-top: 40px;
+      display: block;
+      opacity: 1;
+      height: 400px;
+    }
+
+    .testimonial img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .testimonial h3 {
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .testimonial p.role {
+      color: #888;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+
+    .testimonial p.text {
+      font-style: italic;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    /* Buttons */
+    .btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.5rem;
+      background: none;
+      border: none;
+      color: #49a40d;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .btn:hover {
+      color: #2b6b08;
+    }
+
+    .prev {
+      left: 10px;
+    }
+
+    .next {
+      right: 10px;
+    }
+
+    /* Dots */
+    .dots {
+      margin-top: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      background: #ddd;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background: #49a40d;
+    }
+
+    @media (max-width: 480px) {
+      .testimonial p.text {
+        font-size: 0.9rem;
+      }
+      .testimonial.active {
+      padding-top: 10px;
+  
+      height: 300px;
+    }
+    }

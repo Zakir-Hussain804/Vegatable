@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+   <link rel="stylesheet" href="Product.css">
+   <link rel="stylesheet" href="mainImage.css">
+
+    </style>
+</head>
+
+<body>
+
+
+     <header>
+  <div class="top-fixed">
+    <div class="top-info-container">
+      <div class="info-item">
+        <i class="icon ion-ios-telephone"></i>
+        <span>+ 1235 2355 98</span>
+      </div>
+      <div class="info-item">
+        <i class="icon ion-ios-email"></i>
+        <p>zakirhussain804@gmail.com</p>
+      </div>
+      <div class="info-item">
+        <span>3–5 Business days delivery & Free Returns</span>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="logo">
+        <p><a href="#">Vegefoods</a></p>
+      </div>
+
+      <div class="menu-icon">
+        <i id="open-menu" class="fas fa-bars"></i>
+        <i id="close-menu" class="fas fa-times" style="display: none;"></i>
+      </div>
+
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="has-dropdown">
+          <a href="#shop">Shop <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown">
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="SingleProduct.html">Single Product</a></li>
+            <li><a href="Cart.html">Cart</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+          </ul>
+        </li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li class="nav-item cart">
+          <a href="Cart.html" class="nav-link cart-link">
+            <i class="ion-ios-cart"></i> [0]
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <div class="main-image">
+    <img src="images/bg_1.jpg" alt="Background image">
+    <div class="main-center">
+      <h2>My Product</h2>
+      <p>Single Product</p>
+    </div>
+  </div>
+  
+
+  <!-- Product Section -->
+  <section class="product">
+    <div class="product-container">
+      <div class="product-image">
+        <img src="images/product-1.jpg" alt="Bell Pepper">
+      </div>
+      <div class="product-info">
+        <h2>Bell Pepper</h2>
+        <div class="rating">
+          ⭐⭐⭐⭐⭐ <span>(100 ratings)</span> | <span>500 sold</span>
+        </div>
+        <h3 class="price">$120.00</h3>
+        <p>
+          A small river named Duden flows by their place and supplies it with the necessary regelialia.
+          It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+        </p>
+
+        <div class="options">
+          <label for="size">Size:</label>
+          <select id="size">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+        </div>
+
+        <div class="quantity">
+          <button>-</button>
+          <input type="number" value="1" min="1">
+          <button>+</button>
+        </div>
+
+        <p class="stock">600 kg available</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Products -->
+  <section class="related">
+    <h4>Products</h4>
+    <h2>Related Products</h2>
+    <p>Far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+
+    <div class="related-grid">
+      <div class="product-card">
+        <img src="images/product-1.jpg" alt="Bell Pepper">
+        <h3>Bell Pepper</h3>
+        <p>$120.00</p>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product-2.jpg" alt="Strawberry">
+        <h3>Strawberry</h3>
+        <p>$120.00</p>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product-3.jpg" alt="Green Beans">
+        <h3>Green Beans</h3>
+        <p>$120.00</p>
+      </div>
+
+      <div class="product-card">
+        <img src="images/product-4.jpg" alt="Purple Cabbage">
+        <h3>Purple Cabbage</h3>
+        <p>$120.00</p>
+      </div>
+    </div>
+  </section>
+
+
+    <div class="footer-container">
+        <div class="footerbody">
+
+            <!-- Vegefoods Block -->
+            <div class="vegefood footer">
+                <h4>Vegefoods</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                <div class="container " style="margin: 10px;
+          font-size: 2rem;">
+            <i class="fa-brands fa-square-twitter" ></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+            </div>
+
+
+            <!-- Menu Block -->
+            <div class="menu footer">
+                <ul>
+                    <h3>Menu</h3>
+                    <li><a href="./">Shop</a></li>
+                    <li><a href="./">About</a></li>
+                    <li><a href="./">Journal</a></li>
+                    <li><a href="./">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Help Block -->
+            <div class="help footer">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="./">Shopping information FAQ</a></li>
+                    <li><a href="./">Return & Exchange Contact</a></li>
+                    <li><a href="./">Terms & Conditions</a></li>
+                    <li><a href="./">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+
+            <!-- Location Block -->
+            <div class="location footer">
+                <h3>Have a Question?</h3>
+                <p><i class="fa-solid fa-location-dot"></i> 203 Fake St. Mountain View, San Francisco, California, USA
+                </p>
+                <p><i class="fa-solid fa-phone"></i> +2 392 3929 210</p>
+                <p><i class="fa-solid fa-envelope"></i> info@yourdomain.com</p>
+            </div>
+
+        </div>
+        <p style=" text-align: center; margin: 10px;
+      font-size: 1.5rem;"> | This template is made with by Zakir hussain &hearts; </p>
+    </div>
+
+
+
+
+
+</body>
+<script src="Header.js"></script>
+
+</html>

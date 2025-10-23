@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+  
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="Cart.css">
+    <link rel="stylesheet" href="mainImage.css">
+     </style>
+</head>
+<body>
+    
+     <header>
+  <div class="top-fixed">
+    <div class="top-info-container">
+      <div class="info-item">
+        <i class="icon ion-ios-telephone"></i>
+        <span>+ 1235 2355 98</span>
+      </div>
+      <div class="info-item">
+        <i class="icon ion-ios-email"></i>
+        <p>zakirhussain804@gmail.com</p>
+      </div>
+      <div class="info-item">
+        <span>3–5 Business days delivery & Free Returns</span>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="logo">
+        <p><a href="#">Vegefoods</a></p>
+      </div>
+
+      <div class="menu-icon">
+        <i id="open-menu" class="fas fa-bars"></i>
+        <i id="close-menu" class="fas fa-times" style="display: none;"></i>
+      </div>
+
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="has-dropdown">
+          <a href="#shop">Shop <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown">
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="SingleProduct.html">Single Product</a></li>
+            <li><a href="Cart.html">Cart</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+          </ul>
+        </li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li class="nav-item cart">
+          <a href="Cart.html" class="nav-link cart-link">
+            <i class="ion-ios-cart"></i> [0]
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+ <div class="main-image">
+    <img src="images/bg_1.jpg" alt="Background image">
+    <div class="main-center">
+      <h2>My Wishlist</h2>
+      <p>Wishlist Content</p>
+    </div>
+  </div>
+   
+    <!-- Cart Section -->
+  <section class="cart-section">
+    <div class="cart-container">
+
+      <!-- Table -->
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Product name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="cart-body">
+          <tr>
+            <td class="product-info">
+              <img src="images/bg_2.jpg" alt="">
+              <div>
+                <h4>Bell Pepper</h4>
+                <p>Far far away, behind the word mountains.</p>
+              </div>
+            </td>
+            <td>£3.50</td>
+            <td>
+              <input type="number" class="qty" value="1" min="1">
+            </td>
+            <td class="total">£3.50</td>
+          </tr>
+
+          <tr>
+            <td class="product-info">
+              <img src="images/pr-2.jpg" alt="">
+              <div>
+                <h4>Red Cabbage</h4>
+                <p>Separated they live in Bookmarksgrove.</p>
+              </div>
+            </td>
+            <td>£2.25</td>
+            <td>
+              <input type="number" class="qty" value="1" min="1">
+            </td>
+            <td class="total">£2.25</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+
+
+        <div class="footer-container">
+      <div class="footerbody">
+
+        <!-- Vegefoods Block -->
+        <div class="vegefood footer">
+          <h4>Vegefoods</h4>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+          <div class="container " style="margin: 10px;
+          font-size: 2rem;">
+            <i class="fa-brands fa-square-twitter" ></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+        </div>
+
+        <!-- Menu Block -->
+        <div class="menu footer">
+          <ul>
+            <h3>Menu</h3>
+            <li><a href="./">Shop</a></li>
+            <li><a href="./">About</a></li>
+            <li><a href="./">Journal</a></li>
+            <li><a href="./">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Help Block -->
+        <div class="help footer">
+          <h3>Help</h3>
+          <ul>
+            <li><a href="./">Shopping information FAQ</a></li>
+            <li><a href="./">Return & Exchange Contact</a></li>
+            <li><a href="./">Terms & Conditions</a></li>
+            <li><a href="./">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Location Block -->
+        <div class="location footer">
+          <h3>Have a Question?</h3>
+          <p><i class="fa-solid fa-location-dot"></i> 203 Fake St. Mountain View, San Francisco, California, USA</p>
+          <p><i class="fa-solid fa-phone"></i> +2 392 3929 210</p>
+          <p><i class="fa-solid fa-envelope"></i> info@yourdomain.com</p>
+        </div>
+
+      </div>
+      <p style=" text-align: center; margin: 10px;
+      font-size: 1.5rem;"> | This template is made with by Zakir hussain &hearts; </p>
+   
+
+
+
+
+
+</body>
+<script src="Header.js"></script>
+</html>

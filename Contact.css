@@ -1,0 +1,117 @@
+.name{
+    display: grid;
+    justify-content: center;
+    padding-top:23vh;
+    padding-left: 10px;
+}
+.name h2{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.name p{
+    color: white;
+        padding-left: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.Information-date{
+ background-color: rgb(244, 241, 237);
+}
+.Information{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.infor-date{
+    margin-top: 10px;
+    min-height: 100px;
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+}
+.infor-date p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Container for the contact section */
+.contact-date {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual contact items */
+.contact {
+    height: 50vh;
+    width: 300px;
+}
+
+/* Location section */
+.location-date {
+    width: 100%;
+}
+
+/* Form styling */
+form {
+    height: 50vh;
+    width: 400px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    margin: 0 auto; /* Centers the form */
+}
+
+/* Input fields within the form */
+form input {
+    height: 40px;
+    width: 70%;
+    margin-top: 10px;
+    padding: 0 10px; /* Adds padding inside the input */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Submit button styling */
+form button {
+    height: 50px;
+    width: 130px;
+    border-radius: 32%;
+    margin-top: 10px;
+    color: white;
+    background-color: #529a06;
+    border: none; /* Removes default border */
+    cursor: pointer; /* Indicates it's clickable */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for the button */
+form button:hover {
+    background-color: transparent;
+    color: black;
+}
+
+/* Media query for devices with width up to 768px */
+@media (max-width: 768px) {
+    .contact {
+        width: 100%; /* Makes contact items full width */
+        margin-bottom: 20px; /* Adds space between items */
+    }
+
+    form {
+        width: 90%; /* Increases form width on smaller screens */
+    }
+
+    form input {
+        width: 100%; /* Makes inputs full width */
+    }
+
+   
+}

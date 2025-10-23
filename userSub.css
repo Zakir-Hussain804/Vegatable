@@ -1,0 +1,30 @@
+.userSuber-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fafffa;;
+    min-height: 270px;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+.content h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.content p{
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.form input{
+    height: 50px;
+    width: 350px;
+ background-color: rgb(229, 238, 229);
+    border: none;
+}
+.form button{
+    height: 53px;
+    width: 120px;
+    background-color: green;
+    color: white;
+}

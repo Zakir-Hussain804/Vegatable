@@ -1,0 +1,53 @@
+.deal-section {
+  position: relative;
+  background-size: cover;
+  height: 500px;
+  padding: 60px 20px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.deal-content {
+  max-width: 700px;
+  margin: 0 auto;
+  
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  display: contents;
+  align-items: end;
+  color: #262921;
+  font-weight: 300;
+  font-size: larger;
+  margin-left: 50px;
+  /* background-position: 10rcap; */
+
+  /* Display content property to hide uper border */
+}
+.deal-content h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.deal-content p {
+  margin-bottom: 20px;
+}
+.price-box {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.price {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 1.2em;
+}
+.time {
+  background: rgba(255,255,255,0.2);
+  padding: 10px 15px;
+  border-radius: 8px;
+  min-width: 70px;
+}

@@ -1,0 +1,73 @@
+.services-section {
+    margin-top: 10px;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-box {
+  background: #fff;
+  flex: 1 1 220px; /* grow, shrink, base width */
+  max-width: 280px;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.service-box:hover {
+  transform: translateY(-10px);
+}
+
+.icon-ser {
+  font-size: 40px;
+  color: white;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Background colors for each icon */
+.bg-color-1 { background-color: #49a40d; }
+.bg-color-2 { background-color: #f39c12; }
+.bg-color-3 { background-color: #2980b9; }
+.bg-color-4 { background-color: #e74c3c; }
+
+.service-box h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.service-box p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-box {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
